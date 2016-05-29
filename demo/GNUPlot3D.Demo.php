@@ -1,9 +1,9 @@
 <?php
 
-include ".../Gregwar/GnuPlot/GnuPlot.php";
+include ".../GnuPlot3D.php";
 
 
-use Gregwar\GnuPlot\GnuPlot;
+use Gregwar\GnuPlot\GnuPlot3D;
 
 $alpha = 0;
 $plot = new GnuPlot;
