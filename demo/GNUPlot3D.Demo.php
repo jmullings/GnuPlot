@@ -3,10 +3,10 @@
 include ".../GnuPlot3D.php";
 
 
-use Gregwar\GnuPlot\GnuPlot3D;
+//use Gregwar\GnuPlot\GnuPlot3D;
 
 $alpha = 0;
-$plot = new GnuPlot;
+$plot = new GnuPlot3D;
 
 $vec1 = [100,100,100];
 $vec2 = [200,200,200];
