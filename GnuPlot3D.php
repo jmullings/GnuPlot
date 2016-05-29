@@ -208,7 +208,7 @@ class GnuPlot3D {
     {
 
         $data = array_reduce($arrow, function ($a, $b) {
-            return @$a['Total'] > $b['Total'] ? $a : $b ;
+            return @$a[0] > $b[0] ? $a : $b ;
         });
 
         return max($data);
