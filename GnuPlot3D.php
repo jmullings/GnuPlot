@@ -227,7 +227,7 @@ class GnuPlot3D {
             foreach ($this->arrow as $arrow) {
                 $base = implode(",",array_slice($arrow, 0, 3));
                 $arrow = implode(",",array_slice($arrow, 3, 6));
-                $this->sendCommand('set arrow from "'.$base.'" to '.$arrow);
+                $this->sendCommand('set arrow from '.$base.' to '.$arrow);
             }
             $maxData =$this->maxData($this->arrow);
 
